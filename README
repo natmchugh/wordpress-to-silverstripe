@@ -4,8 +4,12 @@ Wordpress Import Module
 
 Maintainer Contact
 -----------------------------------------------
+Original Code by:
 Saophalkun Ponlu (Nickname: phalkunz)
 <phalkunz (at) silverstripe (dot) com>
+
+This fork maintained by Nathaniel McHugh <nat at fishtrap (dot) co (dot) uk>
+since that module seems dead
 
 
 Requirements
@@ -13,7 +17,7 @@ Requirements
 
 Documentation
 -----------------------------------------------
-http://doc.silverstripe.com/doku.php?id=modules:wordpressimport
+
 
 Installation Instructions
 -----------------------------------------------
