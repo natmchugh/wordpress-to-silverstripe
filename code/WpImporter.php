@@ -81,7 +81,6 @@ class WpImporter_Controller extends Controller {
 				// count is used for testing only
 				// TODO: remove the next 2 lines
 				$count++;
-				if($count==10) break;
 			}
 			
 			// delete the temporaray uploaded file

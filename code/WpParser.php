@@ -27,7 +27,7 @@ class WpParser {
 	private $posts;
 	
 	public function __construct($filename) {
-		$this->simple_xml = simplexml_load_file($filename) or die('Cannot open file.');
+		$this->simple_xml = simplexml_load_file($filename, 'SimpleXMLElement', LIBXML_NOERROR ) or die('Cannot open file.');
 		$this->namespaces = $this->simple_xml->getNamespaces(TRUE);
 		
 	}
