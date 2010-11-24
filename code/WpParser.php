@@ -77,7 +77,7 @@ class WpParser {
 			$post['Tags'] = $tags;
 			
 			$post['Content'] = (string)$content_ns->encoded;
-			$post['UrlTitle'] = current($wp_ns->post_name);
+			$post['UrlTitle'] = (string) current($wp_ns->post_name);
 			$post['Date'] = (string)$wp_ns->post_date;
 			
 			// Array of comments of a post 
